@@ -1,0 +1,129 @@
+{
+  "displayFieldName": "GIS_NAME",
+  "fieldAliases": {
+    "OBJECTID": "OBJECTID",
+    "PARCELNO": "PARCELNO",
+    "situs_num": "situs_num",
+    "situs_street": "situs_street",
+    "legal_acreage": "legal_acreage",
+    "GIS_AREA": "GIS_AREA"
+  },
+  "geometryType": "esriGeometryPolygon",
+  "spatialReference": {
+    "wkid": 102658,
+    "latestWkid": 2236
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID"
+    },
+    {
+      "name": "PARCELNO",
+      "type": "esriFieldTypeString",
+      "alias": "PARCELNO",
+      "length": 26
+    },
+    {
+      "name": "situs_num",
+      "type": "esriFieldTypeString",
+      "alias": "situs_num",
+      "length": 15
+    },
+    {
+      "name": "situs_street",
+      "type": "esriFieldTypeString",
+      "alias": "situs_street",
+      "length": 50
+    },
+    {
+      "name": "legal_acreage",
+      "type": "esriFieldTypeDouble",
+      "alias": "legal_acreage"
+    },
+    {
+      "name": "GIS_AREA",
+      "type": "esriFieldTypeDouble",
+      "alias": "GIS_AREA"
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "OBJECTID": 34867,
+        "PARCELNO": "13-12-28-1800-00470-0180",
+        "situs_num": "2285",
+        "situs_street": "LAUREL AVE",
+        "legal_acreage": 1.212,
+        "GIS_AREA": 1.2120035
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              524344.4447533302,
+              1859342.1054992378
+            ],
+            [
+              524024.5028079115,
+              1859337.4785399884
+            ],
+            [
+              524023.507731162,
+              1859502.4782099873
+            ],
+            [
+              524343.4496765807,
+              1859507.1051692367
+            ],
+            [
+              524344.4447533302,
+              1859342.1054992378
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 12303,
+        "PARCELNO": "13-12-28-1800-00250-0050",
+        "situs_num": "1573",
+        "situs_street": "LAUREL AVE",
+        "legal_acreage": 1.036,
+        "GIS_AREA": 1.13612973
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              524331.4178764969,
+              1863101.6872189045
+            ],
+            [
+              524031.49459182844,
+              1863094.6869048253
+            ],
+            [
+              524031.2321251631,
+              1863259.688871406
+            ],
+            [
+              524166.1974064112,
+              1863262.8394556567
+            ],
+            [
+              524331.1554098278,
+              1863266.6891854927
+            ],
+            [
+              524331.4178764969,
+              1863101.6872189045
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

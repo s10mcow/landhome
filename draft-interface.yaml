@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lot to Proposed Site Plan"
+  short_description: "Look up lot dimensions and draft proposed site plans"
+  default_prompt: "Use $lot-to-proposed-site-plan to look up this property's lot dimensions and draft a proposed land-home site plan."
