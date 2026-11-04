@@ -57,4 +57,5 @@ Resolve `parcel_geometry.py` relative to this skill's directory. Run `python3 pa
 
 - [Flagler sources and Laurel examples](references/flagler-and-laurel.md): official retrieval route, cross-check fields, known example conflicts and layout preferences.
 - [Layout and output rules](references/layout-and-outputs.md): geometry, assumption handling, feature placement and output checklist.
+- [Sub-cost estimates](references/sub-costs/README.md): county manufactured-home sub-cost sheets and the Flagler call baseline. Every figure is an estimate, not a bid. Use them only as cost context. They do not change parcel measurement, setbacks, or site-plan rules, and a blank amount is unknown, not zero.
 - `fixtures/laurel-county-parcels.json`: dated public-data regression fixture; use only for helper checks, never as a fresh live lookup.
