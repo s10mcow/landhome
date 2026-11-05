@@ -1,11 +1,13 @@
 ---
 name: lot-to-proposed-site-plan
-description: Retrieve and measure official parcel boundaries from an address or parcel ID, reconcile lot dimensions and acreage, and create a scaled proposed manufactured-home site plan with home, well, septic area, driveway, and delivery access. Use for lot measurements, GIS or aerial checks, adapting the Laurel layout, and proposed land-home site plans for Rising Tide and Requity, especially in Flagler County, Florida. Look up lot dimensions automatically before asking the user to provide them.
+description: Retrieve and measure official parcel boundaries from an address or parcel ID, reconcile lot dimensions and acreage, and create a scaled proposed manufactured-home site plan with home, well, septic area, driveway, and delivery access. Use for land-home property intake, lot measurements, GIS or aerial checks, adapting the Laurel layout, preliminary site plans, and drafting jurisdiction-specific permit packets for Rising Tide and Requity, especially in Flagler County, Florida. Look up lot dimensions automatically before asking the user to provide them.
 ---
 
 # Lot to Proposed Site Plan
 
 Turn an address, parcel ID, survey, or referenced lot into sourced measurements and a parcel-specific proposed plan. Treat automatic dimension retrieval as the first deliverable, even when the user requests only a layout. Use the Laurel arrangement as an editable preference, never as evidence about a new parcel.
+
+For a new property added through this workflow, run [Draft permit packets](references/permit-packet.md) alongside the preliminary site plan. Reuse the same property data. Return both drafts and their open items. A standalone measurement or layout request stays scoped to that deliverable unless the user asks for the packet.
 
 ## 1. Resolve the property and collect measurements
 
@@ -39,7 +41,7 @@ Reserve a conceptual septic area until the evaluator/installer determines the ac
 
 ## 4. Create, check, and deliver the proposed plan
 
-1. Use the PDF creation skill for a PDF deliverable and the Library workflow for current source files and saving generated plans. Use deterministic vector drawing or CAD tools, not image generation, for measurements and diagrams.
+1. Use available PDF tooling for PDF deliverables. In ChatGPT Work, use the Library workflow for current source files and saving generated plans. In Hermes, use the authorized private project workspace. Use deterministic vector drawing or CAD tools, not image generation, for measurements and diagrams.
 2. Default to one scaled vector PDF and an editable SVG, with the parcel-specific input/source JSON. If the user asks only for dimensions, return the sourced measurements without generating unnecessary files. If evidence is insufficient for a responsible layout, deliver the measurements and unresolved layout inputs first.
 3. Title drawings `PROPOSED SITE PLAN - PRELIMINARY`; add `Not a boundary survey. Subject to survey, site evaluation, professional design and agency approval.` Label reservations and assumed features at the feature itself, not only in a remote footnote. Keep every generated sheet unsealed; never transfer a professional seal/signature or approval stamp onto it. Retain an authentic seal only on a separate, unchanged source attachment. Do not invent a license number or approval.
 4. Show property identity, actual boundary shape/run dimensions, source basis/date, units, frontage/road evidence, north when known, drawing scale/scale bar, proposed home and offsets, well, septic reservation, driveway/entry, delivery corridor, known constraints, and a concise assumptions/open-items panel. Include conflicting acreage prominently.
@@ -57,4 +59,5 @@ Resolve `parcel_geometry.py` relative to this skill's directory. Run `python3 pa
 
 - [Flagler sources and Laurel examples](references/flagler-and-laurel.md): official retrieval route, cross-check fields, known example conflicts and layout preferences.
 - [Layout and output rules](references/layout-and-outputs.md): geometry, assumption handling, feature placement and output checklist.
+- [Draft permit packets](references/permit-packet.md): jurisdiction routing, verified intake, official form prefills, and filing checklist.
 - `fixtures/laurel-county-parcels.json`: dated public-data regression fixture; use only for helper checks, never as a fresh live lookup.
