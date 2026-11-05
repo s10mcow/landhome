@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landhome Scheduling"
+  short_description: "Plan parallel work and explain land-home delays"
+  default_prompt: "Use $schedule-landhome-projects to show what can start now, what is blocked, and our GC completion and occupancy forecasts."

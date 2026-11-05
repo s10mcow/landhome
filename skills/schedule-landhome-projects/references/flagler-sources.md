@@ -1,0 +1,20 @@
+# Flagler planning sources
+
+Apply only after confirming unincorporated Flagler jurisdiction. Verify current official requirements and project-specific conditions for real permit schedules or release decisions. These scheduling references do not authorize filing, construction or approved-plan alteration.
+
+Reference check: November 4, 2026. Direct county PDF downloads intermittently returned 403; the official search index exposed the contractor packet and current separate tree form. Re-fetch the applicable packet before treating its full contents as currently verified. Do not substitute an owner's packet for the contractor route.
+
+| Official source | Scheduling use |
+| --- | --- |
+| [Central Permitting](https://www.flaglercounty.gov/Growth-Building/Central-Permitting) and [Mobile Home Contractor Packet](https://www.flaglercounty.gov/files/assets/county/v/1/growth-management/documents/central-permitting-doc-center/requirements-for-contractors-applying-online/onlinemobilehomecontractor_packet.pdf) | Starting Flagler template: private well/septic approvals, survey/site plan, ROW/access, installer documents and ownership evidence feed a complete mobile-home package. Confirm current checklist/review states. Do not assume placeholders are accepted. |
+| [Tree Protection Form](https://www.flaglercounty.gov/files/assets/county/v/1/growth-management/documents/tree-protection-form.pdf) | Separate form effective September 18, 2024 calls for a tree survey under 24 months old by a Florida licensed land surveyor. Use current separate form where older packet inserts conflict; include applicable scope upfront. |
+| [ROW/culvert/driveway material](https://www.flaglercounty.gov/files/assets/county/v/1/growth-management/documents/central-permitting-doc-center/printable-permit-forms/right-of-way-culvert-dri.pdf) | Confirm staking, professional plan/elevations and road authority before filing or ordering pipe. Verify signed/sealed plan requirements. Generic layouts are design input; have preparers revise sealed work. |
+| [DEP 4015 septic application](https://floridadep.gov/sites/default/files/DEP%204015_0.pdf) | June 2026 form requests site-specific scaled layout, floor plan/bedrooms/area and site evaluation. Neighbors, soils, water table and elevations affect layout; approved-plan changes need approval. |
+| [Flagler onsite sewage program](https://flagler.floridahealth.gov/programs-and-services/environmental-public-health/onsite-sewage-disposal/) | Verify current local submission route. DEP responsibility does not alone identify the office accepting applications. |
+| [Flagler well program](https://flagler.floridahealth.gov/programs-and-services/environmental-public-health/water-well-construction/) and [potable well conditions](https://flagler.floridahealth.gov/wp-content/uploads/sites/20/2025/04/updated-potable-well-conditions-page.pdf) | Separate well permitting. Published conditions require bacteriological/nitrate/chloride clearance before final/CO for the described private wells. Schedule sampling, results and corrections as well as drilling. |
+| [Florida Statutes 713.13](https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0713/Sections/0713.13.html) | For applicable nonexempt improvements, record and post NOC before commencement. Confirm applicability/signatory; do not postpone to inspection scheduling. |
+| [FPL project types](https://partner.fpl.com/construction/project-types.html) | Start planning early. Track actual requirements, payment, electrical release and readiness before utility work/energization. Published windows are conditional guidance, not promised total durations. |
+
+Leave preclosing filing/issuance/ownership-update rules unconfirmed until each office confirms them for the applicant/property. Seller field access, agency application authority and construction release are separate facts. Record office, response, date and scope.
+
+For another jurisdiction replace this profile with primary agency/utility sources. Preserve unverified requirements as questions; do not apply Flagler's checklist statewide.
