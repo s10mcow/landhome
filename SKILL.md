@@ -1,11 +1,13 @@
 ---
 name: lot-to-proposed-site-plan
-description: Retrieve and measure official parcel boundaries from an address or parcel ID, reconcile lot dimensions and acreage, and create a scaled proposed manufactured-home site plan with home, well, septic area, driveway, and delivery access. Use for lot measurements, GIS or aerial checks, adapting the Laurel layout, and proposed land-home site plans for Rising Tide and Requity, especially in Flagler County, Florida. Look up lot dimensions automatically before asking the user to provide them.
+description: Retrieve and measure official parcel boundaries from an address or parcel ID, reconcile lot dimensions and acreage, and create a scaled proposed manufactured-home site plan with home, well, septic area, driveway, and delivery access. Use for land-home property intake, lot measurements, GIS or aerial checks, adapting the Laurel layout, preliminary site plans, and drafting jurisdiction-specific permit packets for Rising Tide and Requity, especially in Flagler County, Florida. Look up lot dimensions automatically before asking the user to provide them.
 ---
 
 # Lot to Proposed Site Plan
 
 Turn an address, parcel ID, survey, or referenced lot into sourced measurements and a parcel-specific proposed plan. Treat automatic dimension retrieval as the first deliverable, even when the user requests only a layout. Use the Laurel arrangement as an editable preference, never as evidence about a new parcel.
+
+For a new property added through this workflow, run [Draft permit packets](references/permit-packet.md) alongside the preliminary site plan. Reuse the same property data. Return both drafts and their open items. A standalone measurement or layout request stays scoped to that deliverable unless the user asks for the packet.
 
 ## 1. Resolve the property and collect measurements
 
@@ -57,4 +59,5 @@ Resolve `parcel_geometry.py` relative to this skill's directory. Run `python3 pa
 
 - [Flagler sources and Laurel examples](references/flagler-and-laurel.md): official retrieval route, cross-check fields, known example conflicts and layout preferences.
 - [Layout and output rules](references/layout-and-outputs.md): geometry, assumption handling, feature placement and output checklist.
+- [Draft permit packets](references/permit-packet.md): jurisdiction routing, verified intake, official form prefills, and filing checklist.
 - `fixtures/laurel-county-parcels.json`: dated public-data regression fixture; use only for helper checks, never as a fresh live lookup.
