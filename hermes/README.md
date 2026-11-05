@@ -57,13 +57,14 @@ Confirm that the skill appears, the MCP connection succeeds, and the project run
 | Contract kickoff | Authenticated portal event after the contract transition is committed | Apply the scheduling and site-plan workflows, prepare requests and route exceptions | Verify access, vendor authorization and spending caps before action. Save evidence, approvals and a stable action ID so retries are safe |
 | Trade and closeout handoffs | Verified vendor or agency update | Extract dates, identify impacted work and draft the next follow-up | Verify required evidence and permit states, confirm bookings, and track GC completion and CO independently |
 
-For the contract trigger, send a signed Hermes webhook with an event ID and project ID. Keep vendor content in the portal or inbox as evidence. The portal should separately record conditional holds and confirmed bookings. Requity decides whether to close, extend, or exit. Rising Tide authorizes sitework and home dispatch. Vendor outreach can be enabled once an approved sender, vendor list, and per-project authorization rules are in place. The portal must check those rules when an action runs.
+Build Tracker already queues lot enrichment on eligible property transitions and prepares a surveyor draft when eligible lots leave due diligence. Reuse those paths. For contract-day survey outreach, move the existing draft trigger earlier after seller access and spending authorization are verified, and retain the approval step. For the Hermes contract trigger, send a signed webhook with an event ID and project ID. Keep vendor content in the portal or inbox as evidence. The portal should separately record conditional holds and confirmed bookings. Requity decides whether to close, extend, or exit. Rising Tide authorizes sitework and home dispatch. Vendor outreach can be enabled once an approved sender, vendor list, and per-project authorization rules are in place. The portal must check those rules when an action runs.
 
 Start cron only after the manual run works and the Landhome profile has a running gateway. Start with a review job in America/New_York. Enable event-driven kickoff after the tracker can publish committed events and record actions without duplicates.
 
 - [Scheduling skill](../skills/schedule-landhome-projects/SKILL.md)
 - [Lot-to-site-plan skill](../SKILL.md)
 - [Build Tracker MCP setup](https://github.com/s10mcow/build-tracker#mcp-setup)
+- [Build Tracker due diligence and survey outreach](https://github.com/s10mcow/build-tracker/blob/main/docs/DUE_DILIGENCE_ENRICHMENT.md)
 - [Hermes profiles](https://hermes-agent.nousresearch.com/docs/user-guide/profiles)
 - [Hermes MCP configuration](https://hermes-agent.nousresearch.com/docs/reference/mcp-config-reference)
 - [Hermes cron](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron)
