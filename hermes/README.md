@@ -10,12 +10,12 @@ On the Mac mini, check out this repository. Create a dedicated internal profile 
 hermes profile create landhome --no-skills
 ```
 
-If the profile exists, reuse it. Configure model access for the profile as needed with `hermes -p landhome setup`. Open the profile's configuration with `hermes -p landhome config edit`. Merge the following keys into its YAML and replace the example path with the absolute path to the checkout's `skills` directory.
+If the profile exists, reuse it. Configure model access for the profile as needed with `hermes -p landhome setup`. Open the profile's configuration with `hermes -p landhome config edit`. Merge the following keys into its YAML and replace the example path with the absolute path to the checkout root so Hermes can discover both Landhome skills.
 
 ```yaml
 skills:
   external_dirs:
-    - /absolute/path/to/landhome/skills
+    - /absolute/path/to/landhome
 
 mcp_servers:
   build_tracker:
@@ -48,7 +48,11 @@ hermes -p landhome chat --oneshot -s schedule-landhome-projects -q \
   "Use Build Tracker to review ${landhome_pilot_property:?Set the exact Build Tracker property name first}. Give me ready work, blockers, owners, next follow-up dates, separate GC completion and CO forecasts, and any vendor follow-up drafts. Use only the tracker read tools. Report missing or conflicting evidence. Return all drafts here."
 ```
 
-Confirm that the skill appears, the MCP connection succeeds, and the project run reads the correct lot. Compare the resulting readiness and forecasts against the project record. Verify that the profile exposes only the allowed Build Tracker tools and has no vendor messaging channel attached during the pilot.
+Confirm that both Landhome skills appear, the MCP connection succeeds, and the project run reads the correct lot. Compare the resulting readiness and forecasts against the project record. Verify that the profile exposes only the allowed Build Tracker tools and has no vendor messaging channel attached during the pilot.
+
+## New-property intake
+
+In an authorized internal Hermes session, use `lot-to-proposed-site-plan` and give it the parcel ID or address. Ask for the preliminary plan, draft permit forms, and upload checklist. Keep the generated files private. The [permit packet workflow](../references/permit-packet.md) covers verified fields, portal-only worksheets, and missing attachments.
 
 ## Client Slack and portal
 
