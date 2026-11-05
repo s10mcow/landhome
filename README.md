@@ -8,7 +8,8 @@ Start with [SKILL.md](SKILL.md). Give the agent an address or parcel ID and the 
 
 - `SKILL.md`: parcel lookup, evidence reconciliation, layout and drawing workflow.
 - `parcel_geometry.py`: standard-library Python helper for a retrieved ArcGIS parcel response.
-- `references/`: Flagler sources, editable Laurel layout preferences and output rules.
+- `references/`: Flagler sources, editable Laurel layout preferences, output rules, and manufactured-home sub-cost estimates.
+- `references/sub-costs/`: county sub-cost sheets and the Flagler call baseline. Every figure is an estimate, not a bid. CSV and JSON are the structured copies; this repo has no pricing model.
 - `fixtures/laurel-county-parcels.json`: historical public GIS response for measurement checks, not a current lookup.
 - `agents/openai.yaml`: skill display metadata.
 

@@ -1,0 +1,2010 @@
+{
+  "schema_version": 1,
+  "figure_status": "estimate",
+  "disclaimer": "All dollar figures are estimates. They are not bids, contracts, or quotes for a specific parcel. Fee schedules, dealer prices, and contractor quotes change; confirm the current amount before relying on it. A blank low or high means that figure was not found, not that the cost is zero.",
+  "recorded": "2026-11-04",
+  "counties": [
+    "St Johns",
+    "Clay",
+    "Duval",
+    "Volusia",
+    "Putnam",
+    "Flagler"
+  ],
+  "line_items": [
+    {
+      "county": "St Johns",
+      "line_item": "Impact fees (county, MH = res du, 801-1,250 sf)",
+      "low": 13115,
+      "high": 13115,
+      "unit": "du",
+      "source": "https://www.sjcfl.us/wp-content/uploads/2025/12/impact-fees-tables-phase-1-2026.pdf",
+      "notes": "Phase 1 eff 3/4/2026; steps up yearly to 2030",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Impact fees (1,251-1,800 sf tier)",
+      "low": 17811,
+      "high": 17811,
+      "unit": "du",
+      "source": "https://www.sjcfl.us/wp-content/uploads/2025/12/impact-fees-tables-phase-1-2026.pdf",
+      "notes": "Most DWs land here; <800 sf = $6,907; 1,801-2,500 = $22,490",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Well (complete)",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "No SJC-specific well cost found",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Septic install (conventional)",
+      "low": 4000,
+      "high": 9000,
+      "unit": "job",
+      "source": "https://septicandwell.com/florida/st-johns/septic-installation (via Treg: perplexity.web.search.fast)",
+      "notes": "Directory typical range",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Septic (mound, high water table)",
+      "low": 12000,
+      "high": 28000,
+      "unit": "job",
+      "source": "https://septicandwell.com/articles/septic-installation-cost-florida (via Treg: perplexity.web.search.fast)",
+      "notes": "Statewide mound range",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "DOH septic permit fee",
+      "low": null,
+      "high": null,
+      "unit": "permit",
+      "source": "not found",
+      "notes": "DOH-St Johns still permits; fee not published online (904-506-6081)",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "DOH well permit fee",
+      "low": null,
+      "high": null,
+      "unit": "permit",
+      "source": "not found",
+      "notes": "",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "MH building/setup permit",
+      "low": null,
+      "high": null,
+      "unit": "permit",
+      "source": "not found",
+      "notes": "See https://www.sjcfl.us/wp-content/uploads/2026/05/fee-schedule.pdf (not parsed)",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Install: block/tie/level/marry (DW)",
+      "low": 7000,
+      "high": 20000,
+      "unit": "job",
+      "source": "https://www.localmovers.com/moving-resources/what-it-costs-to-set-up-a-manufactured-home (via Treg: perplexity.web.search.fast)",
+      "notes": "All-in set/block/level/anchor range, not county-specific. Baseline $12-14K incl ~$2K plumbing",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Tie-down/anchor package (component)",
+      "low": 1500,
+      "high": 3000,
+      "unit": "job",
+      "source": "https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Ocala installer price list",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Delivery & setup (DW, dealer)",
+      "low": 4000,
+      "high": 10000,
+      "unit": "job",
+      "source": "https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Often included in dealer price - confirm",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Electric service / pole hookup",
+      "low": 1000,
+      "high": 3000,
+      "unit": "job",
+      "source": "https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Generic connection to pole/underground; baseline $4,500",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "FPL / JEA / co-op line extension",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "No published residential drop fee found; baseline says FPL pole drop free recently",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "HVAC (central A/C)",
+      "low": 4000,
+      "high": 9000,
+      "unit": "job",
+      "source": "https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$6K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Skirting (vinyl)",
+      "low": 1200,
+      "high": 3500,
+      "unit": "job",
+      "source": "https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$1,800; localmovers lists vinyl $630-1,550",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Steps (all entrances, + small porch)",
+      "low": 500,
+      "high": 2000,
+      "unit": "job",
+      "source": "https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$800 each/$2,400; FHA needs steps at every door",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Siding",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $1,500-2,000",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Interior trim-out",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$3K; Champion trim $3K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Final cleaning",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$200",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Site prep / clearing (wooded)",
+      "low": 1000,
+      "high": 10000,
+      "unit": "job",
+      "source": "https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast) / https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$8K hauled",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Boundary survey",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$1K (+tree survey in Flagler; SWA trip $200)",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Driveway & access",
+      "low": 3000,
+      "high": 8000,
+      "unit": "job",
+      "source": "https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline millings ~$2,400",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Culvert",
+      "low": null,
+      "high": null,
+      "unit": "each",
+      "source": "not found",
+      "notes": "Baseline ~$3K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Dirt work / fill",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $1,800-2,500; sand $200/load; operator ~$200/hr",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Asphalt millings",
+      "low": null,
+      "high": null,
+      "unit": "load",
+      "source": "not found",
+      "notes": "Baseline $650-850/load",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "GC PM / permitting fee",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $11K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Home: Champion Prime (DW)",
+      "low": 87000,
+      "high": 90000,
+      "unit": "home",
+      "source": "User's own Flagler calls (baseline)",
+      "notes": "$87K + $3K trim",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "St Johns",
+      "line_item": "Home: Clayton (DW)",
+      "low": 92000,
+      "high": 95000,
+      "unit": "home",
+      "source": "User's own Flagler calls (baseline)",
+      "notes": "",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Mobility fee - Middleburg/West Clay (MH)",
+      "low": 2150,
+      "high": 2150,
+      "unit": "du",
+      "source": "https://www.claycountygov.com/government/office-of-management-budget/fy25-26-schedule-of-fees-services-effective-10-1-25",
+      "notes": "FY25/26 schedule; revised 2026 schedules eff 6/15/2026 may differ",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Mobility fee - Keystone Hts/South Clay (MH)",
+      "low": 551,
+      "high": 551,
+      "unit": "du",
+      "source": "https://www.claycountygov.com/government/office-of-management-budget/fy25-26-schedule-of-fees-services-effective-10-1-25",
+      "notes": "Same caveat",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "School impact fee (MH)",
+      "low": 8948,
+      "high": 8948,
+      "unit": "du",
+      "source": "https://www.claycountygov.com/government/planning-and-zoning/impact-mobility-fees/school-concurrency",
+      "notes": "Eff 6/1/2026; paid before power release",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "County comprehensive impact fees",
+      "low": 4853.19,
+      "high": 4853.19,
+      "unit": "du",
+      "source": "https://impactfees.org/florida-impact-fees/clay-county",
+      "notes": "SF 1,501-2,499 sf rate after 10/1/2026; MH rate not confirmed",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Well (complete) - Clay median 200-220 ft",
+      "low": 6000,
+      "high": 16000,
+      "unit": "job",
+      "source": "https://wellwaterinsider.com/well-water/florida/clay-county (via Treg: perplexity.web.search.fast)",
+      "notes": "floridawelldata.com says $12-20K complete at 200 ft; baseline ~$10K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Well - Keystone Hts avg (130 ft)",
+      "low": 4550,
+      "high": 13000,
+      "unit": "job",
+      "source": "https://welldrillingcosts.com/cities/keystone-heights-fl/ (via Treg: perplexity.web.search.fast)",
+      "notes": "$4,550 avg; 150 ft complete $8.5-13K; Middleburg avg $3,740",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Well permit (county/SJRWMD)",
+      "low": 150,
+      "high": 200,
+      "unit": "permit",
+      "source": "https://welldrillingcosts.com/cities/keystone-heights-fl/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Third-party figure",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Septic install (North FL)",
+      "low": 5000,
+      "high": 15000,
+      "unit": "job",
+      "source": "https://septicandwell.com/articles/septic-installation-cost-florida (via Treg: perplexity.web.search.fast)",
+      "notes": "Region range Duval/St Johns/Clay",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "DOH septic permit fee",
+      "low": null,
+      "high": null,
+      "unit": "permit",
+      "source": "not found",
+      "notes": "DOH-Clay page lists requirements, no fee",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "MH building/setup permit",
+      "low": null,
+      "high": null,
+      "unit": "permit",
+      "source": "not found",
+      "notes": "",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Install: block/tie/level/marry (DW)",
+      "low": 7000,
+      "high": 20000,
+      "unit": "job",
+      "source": "https://www.localmovers.com/moving-resources/what-it-costs-to-set-up-a-manufactured-home (via Treg: perplexity.web.search.fast)",
+      "notes": "All-in set/block/level/anchor range, not county-specific. Baseline $12-14K incl ~$2K plumbing",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Tie-down/anchor package (component)",
+      "low": 1500,
+      "high": 3000,
+      "unit": "job",
+      "source": "https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Ocala installer price list",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Delivery & setup (DW, dealer)",
+      "low": 4000,
+      "high": 10000,
+      "unit": "job",
+      "source": "https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Often included in dealer price - confirm",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Electric service / pole hookup",
+      "low": 1000,
+      "high": 3000,
+      "unit": "job",
+      "source": "https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Generic connection to pole/underground; baseline $4,500",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "FPL / JEA / co-op line extension",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "No published residential drop fee found; baseline says FPL pole drop free recently",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "HVAC (central A/C)",
+      "low": 4000,
+      "high": 9000,
+      "unit": "job",
+      "source": "https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$6K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Skirting (vinyl)",
+      "low": 1200,
+      "high": 3500,
+      "unit": "job",
+      "source": "https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$1,800; localmovers lists vinyl $630-1,550",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Steps (all entrances, + small porch)",
+      "low": 500,
+      "high": 2000,
+      "unit": "job",
+      "source": "https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$800 each/$2,400; FHA needs steps at every door",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Siding",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $1,500-2,000",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Interior trim-out",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$3K; Champion trim $3K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Final cleaning",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$200",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Site prep / clearing (wooded)",
+      "low": 1000,
+      "high": 10000,
+      "unit": "job",
+      "source": "https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast) / https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$8K hauled",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Boundary survey",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$1K (+tree survey in Flagler; SWA trip $200)",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Driveway & access",
+      "low": 3000,
+      "high": 8000,
+      "unit": "job",
+      "source": "https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline millings ~$2,400",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Culvert",
+      "low": null,
+      "high": null,
+      "unit": "each",
+      "source": "not found",
+      "notes": "Baseline ~$3K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Dirt work / fill",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $1,800-2,500; sand $200/load; operator ~$200/hr",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Asphalt millings",
+      "low": null,
+      "high": null,
+      "unit": "load",
+      "source": "not found",
+      "notes": "Baseline $650-850/load",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "GC PM / permitting fee",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $11K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Home: Champion Prime (DW)",
+      "low": 87000,
+      "high": 90000,
+      "unit": "home",
+      "source": "User's own Flagler calls (baseline)",
+      "notes": "$87K + $3K trim",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Clay",
+      "line_item": "Home: Clayton (DW)",
+      "low": 92000,
+      "high": 95000,
+      "unit": "home",
+      "source": "User's own Flagler calls (baseline)",
+      "notes": "",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "City mobility fee (consolidated, no county fee)",
+      "low": 900,
+      "high": 4080,
+      "unit": "du",
+      "source": "https://impactfees.org/florida-impact-fees/duval-county/jacksonville",
+      "notes": "Formula-based by zone; $4,080 = Zone 6 rural; SF basis",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "School impact fee",
+      "low": null,
+      "high": null,
+      "unit": "du",
+      "source": "not found",
+      "notes": "None found for Duval",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Well (complete)",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Septic install (North FL)",
+      "low": 5000,
+      "high": 15000,
+      "unit": "job",
+      "source": "https://septicandwell.com/articles/septic-installation-cost-florida (via Treg: perplexity.web.search.fast)",
+      "notes": "",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "DOH septic permit fee",
+      "low": null,
+      "high": null,
+      "unit": "permit",
+      "source": "not found",
+      "notes": "Only 2015 sheet found: https://duval.floridahealth.gov/wp-content/uploads/sites/18/2025/04/fee-sheet-2015-ostds-web.pdf",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "MH permit (single/multi-wide)",
+      "low": 343.2,
+      "high": 390,
+      "unit": "permit",
+      "source": "https://www.jacksonville.gov/departments/finance/city-fees",
+      "notes": "From search synthesis; verify; +$100 move permit",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "JEA water/sewer (if on utility)",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "https://impactfees.org/florida-impact-fees/duval-county/jacksonville",
+      "notes": "Sewer tap $8,330 + capacity $5,114 if sewered (not for well/septic lots)",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Install: block/tie/level/marry (DW)",
+      "low": 7000,
+      "high": 20000,
+      "unit": "job",
+      "source": "https://www.localmovers.com/moving-resources/what-it-costs-to-set-up-a-manufactured-home (via Treg: perplexity.web.search.fast)",
+      "notes": "All-in set/block/level/anchor range, not county-specific. Baseline $12-14K incl ~$2K plumbing",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Tie-down/anchor package (component)",
+      "low": 1500,
+      "high": 3000,
+      "unit": "job",
+      "source": "https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Ocala installer price list",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Delivery & setup (DW, dealer)",
+      "low": 4000,
+      "high": 10000,
+      "unit": "job",
+      "source": "https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Often included in dealer price - confirm",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Electric service / pole hookup",
+      "low": 1000,
+      "high": 3000,
+      "unit": "job",
+      "source": "https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Generic connection to pole/underground; baseline $4,500",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "FPL / JEA / co-op line extension",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "No published residential drop fee found; baseline says FPL pole drop free recently",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "HVAC (central A/C)",
+      "low": 4000,
+      "high": 9000,
+      "unit": "job",
+      "source": "https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$6K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Skirting (vinyl)",
+      "low": 1200,
+      "high": 3500,
+      "unit": "job",
+      "source": "https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$1,800; localmovers lists vinyl $630-1,550",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Steps (all entrances, + small porch)",
+      "low": 500,
+      "high": 2000,
+      "unit": "job",
+      "source": "https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$800 each/$2,400; FHA needs steps at every door",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Siding",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $1,500-2,000",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Interior trim-out",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$3K; Champion trim $3K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Final cleaning",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$200",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Site prep / clearing (wooded)",
+      "low": 1000,
+      "high": 10000,
+      "unit": "job",
+      "source": "https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast) / https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$8K hauled",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Boundary survey",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$1K (+tree survey in Flagler; SWA trip $200)",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Driveway & access",
+      "low": 3000,
+      "high": 8000,
+      "unit": "job",
+      "source": "https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline millings ~$2,400",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Culvert",
+      "low": null,
+      "high": null,
+      "unit": "each",
+      "source": "not found",
+      "notes": "Baseline ~$3K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Dirt work / fill",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $1,800-2,500; sand $200/load; operator ~$200/hr",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Asphalt millings",
+      "low": null,
+      "high": null,
+      "unit": "load",
+      "source": "not found",
+      "notes": "Baseline $650-850/load",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "GC PM / permitting fee",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $11K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Home: Champion Prime (DW)",
+      "low": 87000,
+      "high": 90000,
+      "unit": "home",
+      "source": "User's own Flagler calls (baseline)",
+      "notes": "$87K + $3K trim",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Duval",
+      "line_item": "Home: Clayton (DW)",
+      "low": 92000,
+      "high": 95000,
+      "unit": "home",
+      "source": "User's own Flagler calls (baseline)",
+      "notes": "",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Impact fees total (MH outside park, <=1,200 sf)",
+      "low": 13272.71,
+      "high": 13272.71,
+      "unit": "du",
+      "source": "https://impactfees.org/florida-impact-fees/volusia-county",
+      "notes": "2026 sched eff 6/3/2026: road 4,864+fire 485.60+EMS 57.41+dist park 527+local park 316+school 7,022.70",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Impact fees total (1,201-1,700 sf)",
+      "low": 13713.37,
+      "high": 13713.37,
+      "unit": "du",
+      "source": "https://impactfees.org/florida-impact-fees/volusia-county",
+      "notes": "road 5,097+fire 559.74+EMS 65.93+parks 606+362+school 7,022.70",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Well (complete)",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Septic install",
+      "low": 4000,
+      "high": 9000,
+      "unit": "job",
+      "source": "https://septicandwell.com/florida/volusia/septic-installation (via Treg: perplexity.web.search.fast)",
+      "notes": "",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "DOH well permit",
+      "low": 80,
+      "high": 100,
+      "unit": "permit",
+      "source": "https://volusia.floridahealth.gov/wp-content/uploads/sites/65/2026/02/2026-Fee-Increase-Chart.pdf",
+      "notes": "Chart line is irrigation well $80 (2025)->$90->$100; potable not explicit",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "DOH septic permit fee",
+      "low": null,
+      "high": null,
+      "unit": "permit",
+      "source": "not found",
+      "notes": "",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "MH setup permit (bldg+elec+plumb)",
+      "low": 201.12,
+      "high": 201.12,
+      "unit": "permit",
+      "source": "https://permitfees.org/florida/volusia",
+      "notes": "$100.56+$50.28+$50.28; licensed MH installer required",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Install: block/tie/level/marry (DW)",
+      "low": 7000,
+      "high": 20000,
+      "unit": "job",
+      "source": "https://www.localmovers.com/moving-resources/what-it-costs-to-set-up-a-manufactured-home (via Treg: perplexity.web.search.fast)",
+      "notes": "All-in set/block/level/anchor range, not county-specific. Baseline $12-14K incl ~$2K plumbing",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Tie-down/anchor package (component)",
+      "low": 1500,
+      "high": 3000,
+      "unit": "job",
+      "source": "https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Ocala installer price list",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Delivery & setup (DW, dealer)",
+      "low": 4000,
+      "high": 10000,
+      "unit": "job",
+      "source": "https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Often included in dealer price - confirm",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Electric service / pole hookup",
+      "low": 1000,
+      "high": 3000,
+      "unit": "job",
+      "source": "https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Generic connection to pole/underground; baseline $4,500",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "FPL / JEA / co-op line extension",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "No published residential drop fee found; baseline says FPL pole drop free recently",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "HVAC (central A/C)",
+      "low": 4000,
+      "high": 9000,
+      "unit": "job",
+      "source": "https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$6K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Skirting (vinyl)",
+      "low": 1200,
+      "high": 3500,
+      "unit": "job",
+      "source": "https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$1,800; localmovers lists vinyl $630-1,550",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Steps (all entrances, + small porch)",
+      "low": 500,
+      "high": 2000,
+      "unit": "job",
+      "source": "https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$800 each/$2,400; FHA needs steps at every door",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Siding",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $1,500-2,000",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Interior trim-out",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$3K; Champion trim $3K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Final cleaning",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$200",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Site prep / clearing (wooded)",
+      "low": 1000,
+      "high": 10000,
+      "unit": "job",
+      "source": "https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast) / https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$8K hauled",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Boundary survey",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$1K (+tree survey in Flagler; SWA trip $200)",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Driveway & access",
+      "low": 3000,
+      "high": 8000,
+      "unit": "job",
+      "source": "https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline millings ~$2,400",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Culvert",
+      "low": null,
+      "high": null,
+      "unit": "each",
+      "source": "not found",
+      "notes": "Baseline ~$3K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Dirt work / fill",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $1,800-2,500; sand $200/load; operator ~$200/hr",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Asphalt millings",
+      "low": null,
+      "high": null,
+      "unit": "load",
+      "source": "not found",
+      "notes": "Baseline $650-850/load",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "GC PM / permitting fee",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $11K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Home: Champion Prime (DW)",
+      "low": 87000,
+      "high": 90000,
+      "unit": "home",
+      "source": "User's own Flagler calls (baseline)",
+      "notes": "$87K + $3K trim",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Volusia",
+      "line_item": "Home: Clayton (DW)",
+      "low": 92000,
+      "high": 95000,
+      "unit": "home",
+      "source": "User's own Flagler calls (baseline)",
+      "notes": "",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Transportation impact fee (MH)",
+      "low": 1768,
+      "high": 1768,
+      "unit": "du",
+      "source": "https://impactfees.org/florida-impact-fees/putnam-county",
+      "notes": "Ord 2025-015 eff 6/10/2025",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Other county impact fees (SF rates)",
+      "low": 2784,
+      "high": 2784,
+      "unit": "du",
+      "source": "https://impactfees.org/florida-impact-fees/putnam-county",
+      "notes": "Gov bldg 1,270+fire 921+parks 445+law 148; MH rates not confirmed; no school fee",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Well (complete) - Palatka avg",
+      "low": 3740,
+      "high": null,
+      "unit": "job",
+      "source": "https://welldrillingcosts.com/cities/keystone-heights-fl/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Palatka avg listed on same page",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Septic install",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Only pumping $275-450 found",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "DOH septic permit (new residential)",
+      "low": 475,
+      "high": 475,
+      "unit": "permit",
+      "source": "https://main.putnam-fl.com/wp-content/uploads/2020/09/FeeScheduleFY20-21-final-adopted_ada_version.pdf",
+      "notes": "FY20-21 ($400 state+$75 county) - stale",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "MH (HUD) permit",
+      "low": null,
+      "high": null,
+      "unit": "permit",
+      "source": "not found",
+      "notes": "Listed in https://www.putnam-fl.gov/wp-content/uploads/2025/09/FY-25-Fee-Schedule-Resolution-2025-118.pdf, amount not extracted",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Install: block/tie/level/marry (DW)",
+      "low": 7000,
+      "high": 20000,
+      "unit": "job",
+      "source": "https://www.localmovers.com/moving-resources/what-it-costs-to-set-up-a-manufactured-home (via Treg: perplexity.web.search.fast)",
+      "notes": "All-in set/block/level/anchor range, not county-specific. Baseline $12-14K incl ~$2K plumbing",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Tie-down/anchor package (component)",
+      "low": 1500,
+      "high": 3000,
+      "unit": "job",
+      "source": "https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Ocala installer price list",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Delivery & setup (DW, dealer)",
+      "low": 4000,
+      "high": 10000,
+      "unit": "job",
+      "source": "https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Often included in dealer price - confirm",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Electric service / pole hookup",
+      "low": 1000,
+      "high": 3000,
+      "unit": "job",
+      "source": "https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Generic connection to pole/underground; baseline $4,500",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "FPL / JEA / co-op line extension",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "No published residential drop fee found; baseline says FPL pole drop free recently",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "HVAC (central A/C)",
+      "low": 4000,
+      "high": 9000,
+      "unit": "job",
+      "source": "https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$6K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Skirting (vinyl)",
+      "low": 1200,
+      "high": 3500,
+      "unit": "job",
+      "source": "https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$1,800; localmovers lists vinyl $630-1,550",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Steps (all entrances, + small porch)",
+      "low": 500,
+      "high": 2000,
+      "unit": "job",
+      "source": "https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$800 each/$2,400; FHA needs steps at every door",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Siding",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $1,500-2,000",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Interior trim-out",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$3K; Champion trim $3K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Final cleaning",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$200",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Site prep / clearing (wooded)",
+      "low": 1000,
+      "high": 10000,
+      "unit": "job",
+      "source": "https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast) / https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$8K hauled",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Boundary survey",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$1K (+tree survey in Flagler; SWA trip $200)",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Driveway & access",
+      "low": 3000,
+      "high": 8000,
+      "unit": "job",
+      "source": "https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline millings ~$2,400",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Culvert",
+      "low": null,
+      "high": null,
+      "unit": "each",
+      "source": "not found",
+      "notes": "Baseline ~$3K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Dirt work / fill",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $1,800-2,500; sand $200/load; operator ~$200/hr",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Asphalt millings",
+      "low": null,
+      "high": null,
+      "unit": "load",
+      "source": "not found",
+      "notes": "Baseline $650-850/load",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "GC PM / permitting fee",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $11K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Home: Champion Prime (DW)",
+      "low": 87000,
+      "high": 90000,
+      "unit": "home",
+      "source": "User's own Flagler calls (baseline)",
+      "notes": "$87K + $3K trim",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Putnam",
+      "line_item": "Home: Clayton (DW)",
+      "low": 92000,
+      "high": 95000,
+      "unit": "home",
+      "source": "User's own Flagler calls (baseline)",
+      "notes": "",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "County impact fees (MH)",
+      "low": 2007,
+      "high": 2007,
+      "unit": "du",
+      "source": "https://www.flaglercounty.gov/files/assets/county/v/1/growth-management/documents/impact-fee-schedule.pdf",
+      "notes": "3/15/2025 schedule; SF = $3,333",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "School impact fee (MH)",
+      "low": 2150,
+      "high": 2150,
+      "unit": "du",
+      "source": "https://www.flaglercounty.gov/files/assets/county/v/1/growth-management/documents/impact-fee-schedule.pdf",
+      "notes": "SF = $5,450",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Impact fee total MH / SF",
+      "low": 4157,
+      "high": 8783,
+      "unit": "du",
+      "source": "https://www.flaglercounty.gov/files/assets/county/v/1/growth-management/documents/impact-fee-schedule.pdf",
+      "notes": "Baseline ~$5K county; Flagler Estates ~$17K quote NOT explained by this schedule - ask what it includes",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Well",
+      "low": 3500,
+      "high": 4000,
+      "unit": "job",
+      "source": "User's own Flagler calls (baseline)",
+      "notes": "$4,000 w/ permit",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Septic (mound, Bunnell) w/ permit",
+      "low": 12900,
+      "high": 15000,
+      "unit": "job",
+      "source": "User's own Flagler calls (baseline)",
+      "notes": "Statewide mound $12-28K (https://septicandwell.com/articles/septic-installation-cost-florida (via Treg: perplexity.web.search.fast))",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "DOH septic/well permit fee",
+      "low": null,
+      "high": null,
+      "unit": "permit",
+      "source": "not found",
+      "notes": "",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Install: block/tie/level/marry (DW)",
+      "low": 7000,
+      "high": 20000,
+      "unit": "job",
+      "source": "https://www.localmovers.com/moving-resources/what-it-costs-to-set-up-a-manufactured-home (via Treg: perplexity.web.search.fast)",
+      "notes": "All-in set/block/level/anchor range, not county-specific. Baseline $12-14K incl ~$2K plumbing",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Tie-down/anchor package (component)",
+      "low": 1500,
+      "high": 3000,
+      "unit": "job",
+      "source": "https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Ocala installer price list",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Delivery & setup (DW, dealer)",
+      "low": 4000,
+      "high": 10000,
+      "unit": "job",
+      "source": "https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Often included in dealer price - confirm",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Electric service / pole hookup",
+      "low": 1000,
+      "high": 3000,
+      "unit": "job",
+      "source": "https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Generic connection to pole/underground; baseline $4,500",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "FPL / JEA / co-op line extension",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "No published residential drop fee found; baseline says FPL pole drop free recently",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "HVAC (central A/C)",
+      "low": 4000,
+      "high": 9000,
+      "unit": "job",
+      "source": "https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$6K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Skirting (vinyl)",
+      "low": 1200,
+      "high": 3500,
+      "unit": "job",
+      "source": "https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$1,800; localmovers lists vinyl $630-1,550",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Steps (all entrances, + small porch)",
+      "low": 500,
+      "high": 2000,
+      "unit": "job",
+      "source": "https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$800 each/$2,400; FHA needs steps at every door",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Siding",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $1,500-2,000",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Interior trim-out",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$3K; Champion trim $3K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Final cleaning",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$200",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Site prep / clearing (wooded)",
+      "low": 1000,
+      "high": 10000,
+      "unit": "job",
+      "source": "https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast) / https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline ~$8K hauled",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Boundary survey",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline ~$1K (+tree survey in Flagler; SWA trip $200)",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Driveway & access",
+      "low": 3000,
+      "high": 8000,
+      "unit": "job",
+      "source": "https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast)",
+      "notes": "Baseline millings ~$2,400",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Culvert",
+      "low": null,
+      "high": null,
+      "unit": "each",
+      "source": "not found",
+      "notes": "Baseline ~$3K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Dirt work / fill",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $1,800-2,500; sand $200/load; operator ~$200/hr",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Asphalt millings",
+      "low": null,
+      "high": null,
+      "unit": "load",
+      "source": "not found",
+      "notes": "Baseline $650-850/load",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "GC PM / permitting fee",
+      "low": null,
+      "high": null,
+      "unit": "job",
+      "source": "not found",
+      "notes": "Baseline $11K",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Home: Champion Prime (DW)",
+      "low": 87000,
+      "high": 90000,
+      "unit": "home",
+      "source": "User's own Flagler calls (baseline)",
+      "notes": "$87K + $3K trim",
+      "figure_status": "estimate"
+    },
+    {
+      "county": "Flagler",
+      "line_item": "Home: Clayton (DW)",
+      "low": 92000,
+      "high": 95000,
+      "unit": "home",
+      "source": "User's own Flagler calls (baseline)",
+      "notes": "",
+      "figure_status": "estimate"
+    }
+  ],
+  "flagler_baseline": [
+    {
+      "id": "gc_permitting_pm",
+      "line_item": "GC permitting and project management",
+      "low": 11000,
+      "high": 11000,
+      "unit": "job",
+      "display": "$11,000 flat",
+      "notes": "Flat fee.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "parcel_review",
+      "line_item": "Parcel review",
+      "low": 500,
+      "high": 500,
+      "unit": "batch",
+      "display": "about $500",
+      "notes": "Per batch.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "site_visits",
+      "line_item": "Site visits",
+      "low": 100,
+      "high": 100,
+      "unit": "hour",
+      "display": "about $100",
+      "notes": "Per hour.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "home_markup",
+      "line_item": "Home markup over wholesale",
+      "low": 5000,
+      "high": 5000,
+      "unit": "home",
+      "display": "about $5,000",
+      "notes": "Over wholesale. Stated separately from the $7,500 wholesale fee included in the Tom Layman figure; the two were not reconciled.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "seller_realtor",
+      "line_item": "Seller-side realtor",
+      "low": 2,
+      "high": 2,
+      "unit": "percent",
+      "display": "about 2%",
+      "notes": "The calls did not state the base the percent applies to.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "well",
+      "line_item": "Well",
+      "low": 3500,
+      "high": 4000,
+      "unit": "job",
+      "display": "about $3,500 ($4,000 with permit)",
+      "notes": "High end includes the permit.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "septic",
+      "line_item": "Septic with permit",
+      "low": 14000,
+      "high": 15000,
+      "unit": "job",
+      "display": "$14,000-$15,000",
+      "notes": "With permit. The Bunnell mound range is a separate call figure.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "septic_bunnell_mound",
+      "line_item": "Septic, Bunnell mound, with permit",
+      "low": 12900,
+      "high": 13900,
+      "unit": "job",
+      "display": "$12,900-$13,900",
+      "notes": "Bunnell mound with permit. The county sheet uses a wider $12,900-$15,000 combined range.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "install",
+      "line_item": "Install, including plumbing",
+      "low": 12000,
+      "high": 14000,
+      "unit": "job",
+      "display": "$12,000-$14,000",
+      "notes": "Includes about $2,000 plumbing.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "electric",
+      "line_item": "Electric",
+      "low": 4500,
+      "high": 4500,
+      "unit": "job",
+      "display": "$4,500",
+      "notes": "",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "hvac",
+      "line_item": "HVAC",
+      "low": 6000,
+      "high": 6000,
+      "unit": "job",
+      "display": "about $6,000",
+      "notes": "",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "skirting",
+      "line_item": "Skirting",
+      "low": 1800,
+      "high": 1800,
+      "unit": "job",
+      "display": "about $1,800",
+      "notes": "",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "steps_each",
+      "line_item": "Steps",
+      "low": 800,
+      "high": 800,
+      "unit": "each",
+      "display": "about $800 each",
+      "notes": "Do not add this to the entrances total.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "steps_entrances",
+      "line_item": "Steps for entrances",
+      "low": 2400,
+      "high": 2400,
+      "unit": "entrances",
+      "display": "about $2,400",
+      "notes": "Entrances combined, about $800 each. Do not add this to the per-entrance figure.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "siding",
+      "line_item": "Siding",
+      "low": 1500,
+      "high": 2000,
+      "unit": "job",
+      "display": "$1,500-$2,000",
+      "notes": "",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "interior_trim",
+      "line_item": "Interior trim",
+      "low": 3000,
+      "high": 3000,
+      "unit": "job",
+      "display": "about $3,000",
+      "notes": "",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "cleaning",
+      "line_item": "Cleaning",
+      "low": 200,
+      "high": 200,
+      "unit": "job",
+      "display": "about $200",
+      "notes": "",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "clearing",
+      "line_item": "Clearing, wooded lot, hauled",
+      "low": 8000,
+      "high": 8000,
+      "unit": "job",
+      "display": "about $8,000",
+      "notes": "Hauled.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "survey",
+      "line_item": "Survey",
+      "low": 1000,
+      "high": 1000,
+      "unit": "job",
+      "display": "about $1,000",
+      "notes": "The calls also list an SWA trip charge of $200. They do not say whether that charge is included in the $1,000.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "swa_trip",
+      "line_item": "SWA survey trip charge",
+      "low": 200,
+      "high": 200,
+      "unit": "trip",
+      "display": "$200",
+      "notes": "Trip charge. Not stated as included in or added to the survey figure.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "driveway_millings",
+      "line_item": "Driveway millings",
+      "low": 2400,
+      "high": 2400,
+      "unit": "job",
+      "display": "about $2,400",
+      "notes": "Job figure. Per-load asphalt millings are listed separately and are not a breakdown of this total.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "culverts",
+      "line_item": "Culverts",
+      "low": 3000,
+      "high": 3000,
+      "unit": "each",
+      "display": "about $3,000",
+      "notes": "The calls did not state a count.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "dirt_work",
+      "line_item": "Dirt work",
+      "low": 1800,
+      "high": 2500,
+      "unit": "job",
+      "display": "$1,800-$2,500",
+      "notes": "Sand and operator rates are separate unit prices, not a calculated total.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "sand",
+      "line_item": "Sand",
+      "low": 200,
+      "high": 200,
+      "unit": "load",
+      "display": "$200",
+      "notes": "Per load.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "operator",
+      "line_item": "Operator",
+      "low": 200,
+      "high": 200,
+      "unit": "hour",
+      "display": "about $200",
+      "notes": "Per hour.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "asphalt_millings",
+      "line_item": "Asphalt millings",
+      "low": 650,
+      "high": 850,
+      "unit": "load",
+      "display": "$650-$850",
+      "notes": "Per load.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "impact_flagler_county",
+      "line_item": "Impact fees, Flagler County",
+      "low": 5000,
+      "high": 5000,
+      "unit": "dwelling",
+      "display": "about $5,000",
+      "notes": "Stay under 1,800 sq ft. The published manufactured-home schedule on the Flagler sheet totals $4,157 and is a different figure.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "impact_flagler_estates",
+      "line_item": "Impact fees, Flagler Estates",
+      "low": 17000,
+      "high": 17000,
+      "unit": "dwelling",
+      "display": "about $17,000",
+      "notes": "Stay under 1,800 sq ft. This call figure is not explained by the published county manufactured-home schedule.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "all_in_land_home",
+      "line_item": "All-in land and home",
+      "low": 190000,
+      "high": 210000,
+      "unit": "package",
+      "display": "$190,000-$210,000",
+      "notes": "Package estimate for land plus home. Do not add it on top of the line items. Land price is not itemized in this list.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "champion_prime",
+      "line_item": "Home: Champion Prime",
+      "low": 87000,
+      "high": 90000,
+      "unit": "home",
+      "display": "about $87,000 + $3,000 trim",
+      "notes": "Lead time about 10-12 weeks. The high end is the home plus trim, not a second home price.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "clayton",
+      "line_item": "Home: Clayton",
+      "low": 92000,
+      "high": 95000,
+      "unit": "home",
+      "display": "$92,000-$95,000",
+      "notes": "Availability cited as March 2027.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    },
+    {
+      "id": "tom_layman",
+      "line_item": "Home: Tom Layman quote",
+      "low": 87365,
+      "high": 87365,
+      "unit": "home",
+      "display": "$87,365",
+      "notes": "Includes a $7,500 wholesale fee. The fee is inside the $87,365, not added on top. Recorded as an estimate, not a current bid.",
+      "figure_status": "estimate",
+      "source": "User's own Flagler calls (baseline)"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+County,Line item,Low,High,Unit,Source,Notes,Figure status
+St Johns,"Impact fees (county, MH = res du, 801-1,250 sf)",13115,13115,du,https://www.sjcfl.us/wp-content/uploads/2025/12/impact-fees-tables-phase-1-2026.pdf,Phase 1 eff 3/4/2026; steps up yearly to 2030,estimate
+St Johns,"Impact fees (1,251-1,800 sf tier)",17811,17811,du,https://www.sjcfl.us/wp-content/uploads/2025/12/impact-fees-tables-phase-1-2026.pdf,"Most DWs land here; <800 sf = $6,907; 1,801-2,500 = $22,490",estimate
+St Johns,Well (complete),,,job,not found,No SJC-specific well cost found,estimate
+St Johns,Septic install (conventional),4000,9000,job,https://septicandwell.com/florida/st-johns/septic-installation (via Treg: perplexity.web.search.fast),Directory typical range,estimate
+St Johns,"Septic (mound, high water table)",12000,28000,job,https://septicandwell.com/articles/septic-installation-cost-florida (via Treg: perplexity.web.search.fast),Statewide mound range,estimate
+St Johns,DOH septic permit fee,,,permit,not found,DOH-St Johns still permits; fee not published online (904-506-6081),estimate
+St Johns,DOH well permit fee,,,permit,not found,,estimate
+St Johns,MH building/setup permit,,,permit,not found,See https://www.sjcfl.us/wp-content/uploads/2026/05/fee-schedule.pdf (not parsed),estimate
+St Johns,Install: block/tie/level/marry (DW),7000,20000,job,https://www.localmovers.com/moving-resources/what-it-costs-to-set-up-a-manufactured-home (via Treg: perplexity.web.search.fast),"All-in set/block/level/anchor range, not county-specific. Baseline $12-14K incl ~$2K plumbing",estimate
+St Johns,Tie-down/anchor package (component),1500,3000,job,https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast),Ocala installer price list,estimate
+St Johns,"Delivery & setup (DW, dealer)",4000,10000,job,https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast),Often included in dealer price - confirm,estimate
+St Johns,Electric service / pole hookup,1000,3000,job,https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),"Generic connection to pole/underground; baseline $4,500",estimate
+St Johns,FPL / JEA / co-op line extension,,,job,not found,No published residential drop fee found; baseline says FPL pole drop free recently,estimate
+St Johns,HVAC (central A/C),4000,9000,job,https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast),Baseline ~$6K,estimate
+St Johns,Skirting (vinyl),1200,3500,job,https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast),"Baseline ~$1,800; localmovers lists vinyl $630-1,550",estimate
+St Johns,"Steps (all entrances, + small porch)",500,2000,job,https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),"Baseline ~$800 each/$2,400; FHA needs steps at every door",estimate
+St Johns,Siding,,,job,not found,"Baseline $1,500-2,000",estimate
+St Johns,Interior trim-out,,,job,not found,Baseline ~$3K; Champion trim $3K,estimate
+St Johns,Final cleaning,,,job,not found,Baseline ~$200,estimate
+St Johns,Site prep / clearing (wooded),1000,10000,job,https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast) / https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),Baseline ~$8K hauled,estimate
+St Johns,Boundary survey,,,job,not found,Baseline ~$1K (+tree survey in Flagler; SWA trip $200),estimate
+St Johns,Driveway & access,3000,8000,job,https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast),"Baseline millings ~$2,400",estimate
+St Johns,Culvert,,,each,not found,Baseline ~$3K,estimate
+St Johns,Dirt work / fill,,,job,not found,"Baseline $1,800-2,500; sand $200/load; operator ~$200/hr",estimate
+St Johns,Asphalt millings,,,load,not found,Baseline $650-850/load,estimate
+St Johns,GC PM / permitting fee,,,job,not found,Baseline $11K,estimate
+St Johns,Home: Champion Prime (DW),87000,90000,home,User's own Flagler calls (baseline),$87K + $3K trim,estimate
+St Johns,Home: Clayton (DW),92000,95000,home,User's own Flagler calls (baseline),,estimate
+Clay,Mobility fee - Middleburg/West Clay (MH),2150,2150,du,https://www.claycountygov.com/government/office-of-management-budget/fy25-26-schedule-of-fees-services-effective-10-1-25,FY25/26 schedule; revised 2026 schedules eff 6/15/2026 may differ,estimate
+Clay,Mobility fee - Keystone Hts/South Clay (MH),551,551,du,https://www.claycountygov.com/government/office-of-management-budget/fy25-26-schedule-of-fees-services-effective-10-1-25,Same caveat,estimate
+Clay,School impact fee (MH),8948,8948,du,https://www.claycountygov.com/government/planning-and-zoning/impact-mobility-fees/school-concurrency,Eff 6/1/2026; paid before power release,estimate
+Clay,County comprehensive impact fees,4853.19,4853.19,du,https://impactfees.org/florida-impact-fees/clay-county,"SF 1,501-2,499 sf rate after 10/1/2026; MH rate not confirmed",estimate
+Clay,Well (complete) - Clay median 200-220 ft,6000,16000,job,https://wellwaterinsider.com/well-water/florida/clay-county (via Treg: perplexity.web.search.fast),floridawelldata.com says $12-20K complete at 200 ft; baseline ~$10K,estimate
+Clay,Well - Keystone Hts avg (130 ft),4550,13000,job,https://welldrillingcosts.com/cities/keystone-heights-fl/ (via Treg: perplexity.web.search.fast),"$4,550 avg; 150 ft complete $8.5-13K; Middleburg avg $3,740",estimate
+Clay,Well permit (county/SJRWMD),150,200,permit,https://welldrillingcosts.com/cities/keystone-heights-fl/ (via Treg: perplexity.web.search.fast),Third-party figure,estimate
+Clay,Septic install (North FL),5000,15000,job,https://septicandwell.com/articles/septic-installation-cost-florida (via Treg: perplexity.web.search.fast),Region range Duval/St Johns/Clay,estimate
+Clay,DOH septic permit fee,,,permit,not found,"DOH-Clay page lists requirements, no fee",estimate
+Clay,MH building/setup permit,,,permit,not found,,estimate
+Clay,Install: block/tie/level/marry (DW),7000,20000,job,https://www.localmovers.com/moving-resources/what-it-costs-to-set-up-a-manufactured-home (via Treg: perplexity.web.search.fast),"All-in set/block/level/anchor range, not county-specific. Baseline $12-14K incl ~$2K plumbing",estimate
+Clay,Tie-down/anchor package (component),1500,3000,job,https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast),Ocala installer price list,estimate
+Clay,"Delivery & setup (DW, dealer)",4000,10000,job,https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast),Often included in dealer price - confirm,estimate
+Clay,Electric service / pole hookup,1000,3000,job,https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),"Generic connection to pole/underground; baseline $4,500",estimate
+Clay,FPL / JEA / co-op line extension,,,job,not found,No published residential drop fee found; baseline says FPL pole drop free recently,estimate
+Clay,HVAC (central A/C),4000,9000,job,https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast),Baseline ~$6K,estimate
+Clay,Skirting (vinyl),1200,3500,job,https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast),"Baseline ~$1,800; localmovers lists vinyl $630-1,550",estimate
+Clay,"Steps (all entrances, + small porch)",500,2000,job,https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),"Baseline ~$800 each/$2,400; FHA needs steps at every door",estimate
+Clay,Siding,,,job,not found,"Baseline $1,500-2,000",estimate
+Clay,Interior trim-out,,,job,not found,Baseline ~$3K; Champion trim $3K,estimate
+Clay,Final cleaning,,,job,not found,Baseline ~$200,estimate
+Clay,Site prep / clearing (wooded),1000,10000,job,https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast) / https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),Baseline ~$8K hauled,estimate
+Clay,Boundary survey,,,job,not found,Baseline ~$1K (+tree survey in Flagler; SWA trip $200),estimate
+Clay,Driveway & access,3000,8000,job,https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast),"Baseline millings ~$2,400",estimate
+Clay,Culvert,,,each,not found,Baseline ~$3K,estimate
+Clay,Dirt work / fill,,,job,not found,"Baseline $1,800-2,500; sand $200/load; operator ~$200/hr",estimate
+Clay,Asphalt millings,,,load,not found,Baseline $650-850/load,estimate
+Clay,GC PM / permitting fee,,,job,not found,Baseline $11K,estimate
+Clay,Home: Champion Prime (DW),87000,90000,home,User's own Flagler calls (baseline),$87K + $3K trim,estimate
+Clay,Home: Clayton (DW),92000,95000,home,User's own Flagler calls (baseline),,estimate
+Duval,"City mobility fee (consolidated, no county fee)",900,4080,du,https://impactfees.org/florida-impact-fees/duval-county/jacksonville,"Formula-based by zone; $4,080 = Zone 6 rural; SF basis",estimate
+Duval,School impact fee,,,du,not found,None found for Duval,estimate
+Duval,Well (complete),,,job,not found,,estimate
+Duval,Septic install (North FL),5000,15000,job,https://septicandwell.com/articles/septic-installation-cost-florida (via Treg: perplexity.web.search.fast),,estimate
+Duval,DOH septic permit fee,,,permit,not found,Only 2015 sheet found: https://duval.floridahealth.gov/wp-content/uploads/sites/18/2025/04/fee-sheet-2015-ostds-web.pdf,estimate
+Duval,MH permit (single/multi-wide),343.2,390,permit,https://www.jacksonville.gov/departments/finance/city-fees,From search synthesis; verify; +$100 move permit,estimate
+Duval,JEA water/sewer (if on utility),,,job,https://impactfees.org/florida-impact-fees/duval-county/jacksonville,"Sewer tap $8,330 + capacity $5,114 if sewered (not for well/septic lots)",estimate
+Duval,Install: block/tie/level/marry (DW),7000,20000,job,https://www.localmovers.com/moving-resources/what-it-costs-to-set-up-a-manufactured-home (via Treg: perplexity.web.search.fast),"All-in set/block/level/anchor range, not county-specific. Baseline $12-14K incl ~$2K plumbing",estimate
+Duval,Tie-down/anchor package (component),1500,3000,job,https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast),Ocala installer price list,estimate
+Duval,"Delivery & setup (DW, dealer)",4000,10000,job,https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast),Often included in dealer price - confirm,estimate
+Duval,Electric service / pole hookup,1000,3000,job,https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),"Generic connection to pole/underground; baseline $4,500",estimate
+Duval,FPL / JEA / co-op line extension,,,job,not found,No published residential drop fee found; baseline says FPL pole drop free recently,estimate
+Duval,HVAC (central A/C),4000,9000,job,https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast),Baseline ~$6K,estimate
+Duval,Skirting (vinyl),1200,3500,job,https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast),"Baseline ~$1,800; localmovers lists vinyl $630-1,550",estimate
+Duval,"Steps (all entrances, + small porch)",500,2000,job,https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),"Baseline ~$800 each/$2,400; FHA needs steps at every door",estimate
+Duval,Siding,,,job,not found,"Baseline $1,500-2,000",estimate
+Duval,Interior trim-out,,,job,not found,Baseline ~$3K; Champion trim $3K,estimate
+Duval,Final cleaning,,,job,not found,Baseline ~$200,estimate
+Duval,Site prep / clearing (wooded),1000,10000,job,https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast) / https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),Baseline ~$8K hauled,estimate
+Duval,Boundary survey,,,job,not found,Baseline ~$1K (+tree survey in Flagler; SWA trip $200),estimate
+Duval,Driveway & access,3000,8000,job,https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast),"Baseline millings ~$2,400",estimate
+Duval,Culvert,,,each,not found,Baseline ~$3K,estimate
+Duval,Dirt work / fill,,,job,not found,"Baseline $1,800-2,500; sand $200/load; operator ~$200/hr",estimate
+Duval,Asphalt millings,,,load,not found,Baseline $650-850/load,estimate
+Duval,GC PM / permitting fee,,,job,not found,Baseline $11K,estimate
+Duval,Home: Champion Prime (DW),87000,90000,home,User's own Flagler calls (baseline),$87K + $3K trim,estimate
+Duval,Home: Clayton (DW),92000,95000,home,User's own Flagler calls (baseline),,estimate
+Volusia,"Impact fees total (MH outside park, <=1,200 sf)",13272.71,13272.71,du,https://impactfees.org/florida-impact-fees/volusia-county,"2026 sched eff 6/3/2026: road 4,864+fire 485.60+EMS 57.41+dist park 527+local park 316+school 7,022.70",estimate
+Volusia,"Impact fees total (1,201-1,700 sf)",13713.37,13713.37,du,https://impactfees.org/florida-impact-fees/volusia-county,"road 5,097+fire 559.74+EMS 65.93+parks 606+362+school 7,022.70",estimate
+Volusia,Well (complete),,,job,not found,,estimate
+Volusia,Septic install,4000,9000,job,https://septicandwell.com/florida/volusia/septic-installation (via Treg: perplexity.web.search.fast),,estimate
+Volusia,DOH well permit,80,100,permit,https://volusia.floridahealth.gov/wp-content/uploads/sites/65/2026/02/2026-Fee-Increase-Chart.pdf,Chart line is irrigation well $80 (2025)->$90->$100; potable not explicit,estimate
+Volusia,DOH septic permit fee,,,permit,not found,,estimate
+Volusia,MH setup permit (bldg+elec+plumb),201.12,201.12,permit,https://permitfees.org/florida/volusia,$100.56+$50.28+$50.28; licensed MH installer required,estimate
+Volusia,Install: block/tie/level/marry (DW),7000,20000,job,https://www.localmovers.com/moving-resources/what-it-costs-to-set-up-a-manufactured-home (via Treg: perplexity.web.search.fast),"All-in set/block/level/anchor range, not county-specific. Baseline $12-14K incl ~$2K plumbing",estimate
+Volusia,Tie-down/anchor package (component),1500,3000,job,https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast),Ocala installer price list,estimate
+Volusia,"Delivery & setup (DW, dealer)",4000,10000,job,https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast),Often included in dealer price - confirm,estimate
+Volusia,Electric service / pole hookup,1000,3000,job,https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),"Generic connection to pole/underground; baseline $4,500",estimate
+Volusia,FPL / JEA / co-op line extension,,,job,not found,No published residential drop fee found; baseline says FPL pole drop free recently,estimate
+Volusia,HVAC (central A/C),4000,9000,job,https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast),Baseline ~$6K,estimate
+Volusia,Skirting (vinyl),1200,3500,job,https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast),"Baseline ~$1,800; localmovers lists vinyl $630-1,550",estimate
+Volusia,"Steps (all entrances, + small porch)",500,2000,job,https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),"Baseline ~$800 each/$2,400; FHA needs steps at every door",estimate
+Volusia,Siding,,,job,not found,"Baseline $1,500-2,000",estimate
+Volusia,Interior trim-out,,,job,not found,Baseline ~$3K; Champion trim $3K,estimate
+Volusia,Final cleaning,,,job,not found,Baseline ~$200,estimate
+Volusia,Site prep / clearing (wooded),1000,10000,job,https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast) / https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),Baseline ~$8K hauled,estimate
+Volusia,Boundary survey,,,job,not found,Baseline ~$1K (+tree survey in Flagler; SWA trip $200),estimate
+Volusia,Driveway & access,3000,8000,job,https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast),"Baseline millings ~$2,400",estimate
+Volusia,Culvert,,,each,not found,Baseline ~$3K,estimate
+Volusia,Dirt work / fill,,,job,not found,"Baseline $1,800-2,500; sand $200/load; operator ~$200/hr",estimate
+Volusia,Asphalt millings,,,load,not found,Baseline $650-850/load,estimate
+Volusia,GC PM / permitting fee,,,job,not found,Baseline $11K,estimate
+Volusia,Home: Champion Prime (DW),87000,90000,home,User's own Flagler calls (baseline),$87K + $3K trim,estimate
+Volusia,Home: Clayton (DW),92000,95000,home,User's own Flagler calls (baseline),,estimate
+Putnam,Transportation impact fee (MH),1768,1768,du,https://impactfees.org/florida-impact-fees/putnam-county,Ord 2025-015 eff 6/10/2025,estimate
+Putnam,Other county impact fees (SF rates),2784,2784,du,https://impactfees.org/florida-impact-fees/putnam-county,"Gov bldg 1,270+fire 921+parks 445+law 148; MH rates not confirmed; no school fee",estimate
+Putnam,Well (complete) - Palatka avg,3740,,job,https://welldrillingcosts.com/cities/keystone-heights-fl/ (via Treg: perplexity.web.search.fast),Palatka avg listed on same page,estimate
+Putnam,Septic install,,,job,not found,Only pumping $275-450 found,estimate
+Putnam,DOH septic permit (new residential),475,475,permit,https://main.putnam-fl.com/wp-content/uploads/2020/09/FeeScheduleFY20-21-final-adopted_ada_version.pdf,FY20-21 ($400 state+$75 county) - stale,estimate
+Putnam,MH (HUD) permit,,,permit,not found,"Listed in https://www.putnam-fl.gov/wp-content/uploads/2025/09/FY-25-Fee-Schedule-Resolution-2025-118.pdf, amount not extracted",estimate
+Putnam,Install: block/tie/level/marry (DW),7000,20000,job,https://www.localmovers.com/moving-resources/what-it-costs-to-set-up-a-manufactured-home (via Treg: perplexity.web.search.fast),"All-in set/block/level/anchor range, not county-specific. Baseline $12-14K incl ~$2K plumbing",estimate
+Putnam,Tie-down/anchor package (component),1500,3000,job,https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast),Ocala installer price list,estimate
+Putnam,"Delivery & setup (DW, dealer)",4000,10000,job,https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast),Often included in dealer price - confirm,estimate
+Putnam,Electric service / pole hookup,1000,3000,job,https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),"Generic connection to pole/underground; baseline $4,500",estimate
+Putnam,FPL / JEA / co-op line extension,,,job,not found,No published residential drop fee found; baseline says FPL pole drop free recently,estimate
+Putnam,HVAC (central A/C),4000,9000,job,https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast),Baseline ~$6K,estimate
+Putnam,Skirting (vinyl),1200,3500,job,https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast),"Baseline ~$1,800; localmovers lists vinyl $630-1,550",estimate
+Putnam,"Steps (all entrances, + small porch)",500,2000,job,https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),"Baseline ~$800 each/$2,400; FHA needs steps at every door",estimate
+Putnam,Siding,,,job,not found,"Baseline $1,500-2,000",estimate
+Putnam,Interior trim-out,,,job,not found,Baseline ~$3K; Champion trim $3K,estimate
+Putnam,Final cleaning,,,job,not found,Baseline ~$200,estimate
+Putnam,Site prep / clearing (wooded),1000,10000,job,https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast) / https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),Baseline ~$8K hauled,estimate
+Putnam,Boundary survey,,,job,not found,Baseline ~$1K (+tree survey in Flagler; SWA trip $200),estimate
+Putnam,Driveway & access,3000,8000,job,https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast),"Baseline millings ~$2,400",estimate
+Putnam,Culvert,,,each,not found,Baseline ~$3K,estimate
+Putnam,Dirt work / fill,,,job,not found,"Baseline $1,800-2,500; sand $200/load; operator ~$200/hr",estimate
+Putnam,Asphalt millings,,,load,not found,Baseline $650-850/load,estimate
+Putnam,GC PM / permitting fee,,,job,not found,Baseline $11K,estimate
+Putnam,Home: Champion Prime (DW),87000,90000,home,User's own Flagler calls (baseline),$87K + $3K trim,estimate
+Putnam,Home: Clayton (DW),92000,95000,home,User's own Flagler calls (baseline),,estimate
+Flagler,County impact fees (MH),2007,2007,du,https://www.flaglercounty.gov/files/assets/county/v/1/growth-management/documents/impact-fee-schedule.pdf,"3/15/2025 schedule; SF = $3,333",estimate
+Flagler,School impact fee (MH),2150,2150,du,https://www.flaglercounty.gov/files/assets/county/v/1/growth-management/documents/impact-fee-schedule.pdf,"SF = $5,450",estimate
+Flagler,Impact fee total MH / SF,4157,8783,du,https://www.flaglercounty.gov/files/assets/county/v/1/growth-management/documents/impact-fee-schedule.pdf,Baseline ~$5K county; Flagler Estates ~$17K quote NOT explained by this schedule - ask what it includes,estimate
+Flagler,Well,3500,4000,job,User's own Flagler calls (baseline),"$4,000 w/ permit",estimate
+Flagler,"Septic (mound, Bunnell) w/ permit",12900,15000,job,User's own Flagler calls (baseline),Statewide mound $12-28K (https://septicandwell.com/articles/septic-installation-cost-florida (via Treg: perplexity.web.search.fast)),estimate
+Flagler,DOH septic/well permit fee,,,permit,not found,,estimate
+Flagler,Install: block/tie/level/marry (DW),7000,20000,job,https://www.localmovers.com/moving-resources/what-it-costs-to-set-up-a-manufactured-home (via Treg: perplexity.web.search.fast),"All-in set/block/level/anchor range, not county-specific. Baseline $12-14K incl ~$2K plumbing",estimate
+Flagler,Tie-down/anchor package (component),1500,3000,job,https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast),Ocala installer price list,estimate
+Flagler,"Delivery & setup (DW, dealer)",4000,10000,job,https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast),Often included in dealer price - confirm,estimate
+Flagler,Electric service / pole hookup,1000,3000,job,https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),"Generic connection to pole/underground; baseline $4,500",estimate
+Flagler,FPL / JEA / co-op line extension,,,job,not found,No published residential drop fee found; baseline says FPL pole drop free recently,estimate
+Flagler,HVAC (central A/C),4000,9000,job,https://requitygroup.com/insights/land-home-package-cost/ (via Treg: perplexity.web.search.fast),Baseline ~$6K,estimate
+Flagler,Skirting (vinyl),1200,3500,job,https://ocalalevelpros.com/blog/mobile-home-setup-florida/ (via Treg: perplexity.web.search.fast),"Baseline ~$1,800; localmovers lists vinyl $630-1,550",estimate
+Flagler,"Steps (all entrances, + small porch)",500,2000,job,https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),"Baseline ~$800 each/$2,400; FHA needs steps at every door",estimate
+Flagler,Siding,,,job,not found,"Baseline $1,500-2,000",estimate
+Flagler,Interior trim-out,,,job,not found,Baseline ~$3K; Champion trim $3K,estimate
+Flagler,Final cleaning,,,job,not found,Baseline ~$200,estimate
+Flagler,Site prep / clearing (wooded),1000,10000,job,https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast) / https://realmobilehomes.com/guides/manufactured-home-installation-setup (via Treg: perplexity.web.search.fast),Baseline ~$8K hauled,estimate
+Flagler,Boundary survey,,,job,not found,Baseline ~$1K (+tree survey in Flagler; SWA trip $200),estimate
+Flagler,Driveway & access,3000,8000,job,https://estimateflorida.com/manufactured-home-cost-estimator/ (via Treg: perplexity.web.search.fast),"Baseline millings ~$2,400",estimate
+Flagler,Culvert,,,each,not found,Baseline ~$3K,estimate
+Flagler,Dirt work / fill,,,job,not found,"Baseline $1,800-2,500; sand $200/load; operator ~$200/hr",estimate
+Flagler,Asphalt millings,,,load,not found,Baseline $650-850/load,estimate
+Flagler,GC PM / permitting fee,,,job,not found,Baseline $11K,estimate
+Flagler,Home: Champion Prime (DW),87000,90000,home,User's own Flagler calls (baseline),$87K + $3K trim,estimate
+Flagler,Home: Clayton (DW),92000,95000,home,User's own Flagler calls (baseline),,estimate
