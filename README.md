@@ -4,11 +4,14 @@ Dedicated skills for Rising Tide and Requity land-home packages. The root site-p
 
 Start with [SKILL.md](SKILL.md). Give the agent an address or parcel ID and the selected home information. The workflow looks up parcel measurements first.
 
+Before a vacant lot is called buildable, or before the pad, well, septic, and driveway are frozen, the site-plan skill runs a [CutSheetRX](references/cutsheet-rx.md) screen. That public page reads USGS 3DEP bare-earth lidar and Esri imagery for elevation, a profile slope, standing water, and rough cut/fill. The numbers are approximate lidar estimates, not a survey, septic design, or sealed grading plan. No account or API key is required.
+
 ## Contents
 
 - `SKILL.md`: parcel lookup, evidence reconciliation, layout and drawing workflow.
 - `parcel_geometry.py`: standard-library Python helper for a retrieved ArcGIS parcel response.
-- `references/`: Flagler sources, editable Laurel layout preferences and output rules.
+- `references/`: Flagler sources, editable Laurel layout preferences, and output rules.
+- `references/cutsheet-rx.md`: public USGS 3DEP screen for lot drainage and rough pad cut/fill. Run it before calling a vacant lot buildable.
 - `fixtures/laurel-county-parcels.json`: historical public GIS response for measurement checks, not a current lookup.
 - `agents/openai.yaml`: skill display metadata.
 
