@@ -56,3 +56,7 @@ The supplied 1573 concept states 165 x 300 ft / 49,500 sf. The supplied 2285 con
 - Reference house-rear-to-septic annotation is 75 ft. It is not a statutory separation, not well-to-septic clearance, and not a reason to lengthen the sewer run on a deeper lot.
 - Show a proposed road entry and culvert only as applicable. Flagler's checked ROW packet specifies 40-ft culvert length where required, with diameter varying by location; confirm current permit specifications and road authority before treating that as the project design. Never transfer it automatically to another jurisdiction.
 - Remove the old address, owner, APN, north arrow, lot dimensions, trees and easements before adapting the concept; add them back only from the current parcel evidence. Preserve page orientation independently of geographical north.
+
+## Desktop terrain screen
+
+CutSheetRX is not a Flagler permit source. Before calling a vacant lot buildable, or before freezing the pad, well, septic, and driveway, follow [CutSheetRX](cutsheet-rx.md). County flood, ROW, septic, and well requirements stay on the official sources above. Lidar from that page does not set a culvert size or a finished floor.

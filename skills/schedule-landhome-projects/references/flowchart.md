@@ -26,3 +26,5 @@ flowchart TD
 ```
 
 State separately: preclosing filing depends on office acceptance; sitework requires applicable ownership/authority, permits and commencement documentation; well/septic installation order depends on access; closeout coordination starts early. GC completion and CO are separate milestones and can have different dates.
+
+A CutSheetRX lidar screen can inform the site plan and the purchase screen before surveyed elevations exist. It does not complete the survey branch. Follow the site-plan CutSheetRX note.

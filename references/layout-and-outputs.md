@@ -8,6 +8,7 @@ Record the following for each parcel. Leave unknown values null with an open-ite
 - Boundary source type: current survey, recorded plat, GIS, or user dimensions; source CRS/units and full geometry.
 - Measured boundary runs, frontage evidence, computed square feet/acres, appraiser acreage and discrepancies.
 - Road/ROW edge and width when known, easement geometry, tree/protection areas, drainage/flood constraints and relevant neighboring features.
+- CutSheetRX screen when run: page URL, check date, flight date and quality label if shown, which outline was drawn, and the readings in [CutSheetRX](cutsheet-rx.md). Leave the block null when the screen was not run or the zoomed parcel had no lidar. Do not store zero elevation or zero cut to mean "not checked." Keep drawn acres off the legal and GIS acreage lines. Note the result on the sheet as an approximate constraint. Do not draw the lidar contours as surveyed contours.
 - Home model/footprint/bedrooms and basis; layout revision; each improvement's coordinates and verified versus assumed status.
 - Known versus assumed design criteria, site evaluation status, and required professional/agency review.
 

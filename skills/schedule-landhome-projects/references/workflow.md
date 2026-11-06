@@ -8,6 +8,8 @@ Confirm seller permission for the actual survey/testing access, who may authoriz
 
 Order a coordinated survey scope covering boundaries/easements/corners, necessary elevations/drainage and applicable trees; obtain prices for later staking and final work. Start septic evaluation, home-plan collection, power-service planning and site pricing in parallel. A boundary-only drawing may leave needed field evidence outstanding.
 
+During due diligence, before survey elevations return, the site-plan [CutSheetRX](../../../references/cutsheet-rx.md) screen can show whether the lot holds water and how much dirt a pad grade might take. Use it on a vacant lot before the purchase screen treats the lot as buildable. It does not replace the survey scope, a flood determination, or the Requity decision. Missing lidar leaves that elevation unknown.
+
 Distinguish home model selection, a conditional inventory hold, nonrefundable procurement and dispatch. Record floor plan, bedrooms, actual footprint, installation documents, availability, commitment terms and transport requirements before freezing design assumptions.
 
 ## Parallel branches and joins
